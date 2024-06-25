@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media(max-width: 1000px) {  /* smol */ 
+	.tablinks i { font-size: 130% } .tablinks { padding: .5rem }  
+  .horseshoe { width: 2rem; padding: .5rem }
+  a.lightswitch { justify-content: center; }
+  sidebar a { background: transparent; padding: .5rem; justify-content: center; }
+  sidebar a i { display: block!important } 
+  sidebar a span { display: none }
+  nav {
+    display: block; text-align: left;
+  }
+  nav a {
+    display: block;
+    padding: .4rem;
+  }
+  h1, h2 { margin: 0; background: none; text-align: center;}
+  h1 { font-size: 2.6rem; height: auto!important; display: block; margin-top: 1rem }
+  h2 { margin-bottom: 1rem }
+}
+
+sidebar {  box-sizing: border-box;
+  color: #fff;
+  background-image: linear-gradient(225deg, #3f505e 20%,#0000), url('https://images.unsplash.com/photo-1600762849691-4b51bc94009c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  flex: 1;
+  background-size: cover; background-position: 46.7% 50% }
+
+sidebar a:hover { color: inherit; background-color: transparent; }
+
+sidebar i {
+   color: #fff;
+}
+
+i {color: #b09bb0; }
+
+.tablinks i { color: #b09bb0; }
+
+.tabwrap { margin: 1.5rem 0; }
+
+.tabcontent {
+  font-size: 13px;
+  
+}
+
+.ribbons b {
+  font-size: 1.3rem;
+  display: block;
+  line-height: 1;
+  margin: 0;
+  color: #b09bb0;
+}
+
+
+background-image: linear-gradient(225deg, var(--primary) 20%,#0000), var(--image);
+
+div.flex.fill.ribbons.centered {   font-size: 13px;   font-family: Alegreya; }
+
+.writeup {
+  font-size: 13px;
+  font-family: Alegreya;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+a { transition: .3s; text-decoration: none; color: #b09bb0; }
+a:hover { color: #728b96; }
+
+button.daisytablinks { color: #fff; }
+button.daisytablinks:hover { color: #e7e7e7; }
+button.daisytablinks.active { color: #e7e7e7!important; }
+
+body { font-family: 'Alegreya'; }
+
+legend { font-family: 'Almendra'; }
+
+h1 { font-family: 'Almendra'; color:#b09bb0; letter-spacing: 1px; background: linear-gradient(90deg, #b09bb0 0%, transparent 33%, transparent 66%, #b09bb0 100%); }
+
+.progress { background: #415057; }
+
+h2 { font-family: 'Almendra'; font-size: 16px; letter-spacing: 2px; }  
+h3 { font-family: 'Almendra SC' ;
+font-size: 14px; letter-spacing: 2px; }  
+h4{ font-family: 'Almendra SC';
+font-size: 14px; letter-spacing: 2px; }  
+th { background-color:#415057;
+color:#fff }
+.blue-edge {border-left:2px solid #415057; padding-left: 15px; margin-left: 15px;}
+
+/* Style the tab */
+.daisytab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #415057;
+display: flex;
+  justify-content: center;
+border-radius: 0.5rem;
+}
+
+/* Style the buttons that are used to open the tab content */
+.daisytab button {
+  background-color: inherit;
+    float: inherit
+text-align: center;
+margin: 0 auto;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.daisytab button:hover {
+  background-color: #415057;
+display: block;
+    position: relative;
+    float: left;
+color: #f1f1f1;
+}
+
+/* Create an active/current tablink class */
+.daisytab button.active {
+  background-color: #415057;
+display: block;
+    position: relative;
+    float: inherit
+text-align: center;
+color: #f1f1f1;
+}
+
+/* Style the tab content */
+.daisycontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
